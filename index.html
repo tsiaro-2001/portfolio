@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio</title>
-    <link rel="stylesheet" media="screen" href="demo/css/style.css"> -->
     <link rel="stylesheet" href="css/style.css">
+
 
     <!-- boxing icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -41,7 +41,7 @@
         <section class="home" id="home">
         <div class="home-content">
              <!-- <div id="particles-js"></div> -->
-            <h3 class="quick">Salut, c'est</h3>
+             <h3 class="quick">Salut, c'est</h3>
             <h1 class="quick">Tsiaro Hifaliana</h1>
             <h3 class="quick">Je suis <span class="multiple-text"></span> </h3>
             <p class="quick">
@@ -231,31 +231,6 @@
     </footer>
         
 
-<!-- scripts -->
-<script src="particles.js"></script>
-<script src="demo/js/app.js"></script>
-
-<!-- stats.js -->
-<script src="demo/js/lib/stats.js"></script>
-<script>
-  var count_particles, stats, update;
-  stats = new Stats;
-  stats.setMode(0);
-  stats.domElement.style.position = 'absolute';
-  stats.domElement.style.left = '0px';
-  stats.domElement.style.top = '0px';
-  document.body.appendChild(stats.domElement);
-  count_particles = document.querySelector('.js-count-particles');
-  update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
-    requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
-</script>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
 <script src="js/javascript.js"></script> 
