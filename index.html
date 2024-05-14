@@ -4,236 +4,637 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio</title>
+    <title>FullStack Developpeur</title>
+    <link rel="stylesheet" media="screen" href="demo/css/style.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image" href="images/favicon2.png" />
 
 
     <!-- boxing icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;700&family=Quicksand&family=Raleway:wght@300;900&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;700&family=Quicksand&family=Raleway:wght@300;900&display=swap" rel="stylesheet">
+    <style>
+        /* Style pour le canvas contenant les particules */
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top: 0;
+            left: 0;
+        }
+
+        /* Style pour le contenu de la section */
+        .home-content {
+            position: relative;
+            z-index: 1;
+            /* Ajoutez d'autres styles selon vos besoins */
+        }
+    </style>
 </head>
 <body>
 
+<!-- header design -->
+<header class="header">
+    <a href="" class="logo">Portfolio.</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#home" class="active">Accueil</a>
+        <a href="#about">A propos</a>         
+        <a href="#service">Service</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-    <!-- header design -->
-   
-    <header class="header">
-        <a href="" class="logo">Portfolio.</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>         
-            <a href="#service">Service</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    
 
-   
-    
-    <!-- <section class="home" id="home particles-js"> -->
-        <section class="home" id="home">
-        <div class="home-content">
-             <!-- <div id="particles-js"></div> -->
-             <h3 class="quick">Salut, c'est</h3>
-            <h1 class="quick">Tsiaro Hifaliana</h1>
-            <h3 class="quick">Je suis <span class="multiple-text"></span> </h3>
-            <p class="quick">
-                Bienvenue sur mon portfolio! Je m'appelle RANDRIAMANALINA Tsiaro Hifaliana et je suis diplômé en informatique avec plus de 4 ans d'expérience dans le développement d'applications mobiles,
-                 spécialisé dans l'utilisation du framework Flutter. Mon expertise dans ce domaine m'a permis d'accompagner de nombreux clients dans la dynamisation de leurs ventes et la croissance de leur entreprise grâce
-                  à l'utilisation d'applications mobiles engageantes. Alors que l'utilisation du mobile continue d'augmenter, il est essentiel d'avoir une application de qualité pour atteindre votre public cible.
-                   C'est pourquoi il est important de choisir un expert dans le domaine. Notre équipe interne de quatre professionnels se consacre à fournir un travail exceptionnel dans les délais et dans les limites du budget.
-                    Si vous avez des questions ou souhaitez discuter d'un projet, n'hésitez pas à nous contacter.
-                 Je suis disponible pour vous aider et vous souhaite une excellente journée.
-                  
-             </p>
-             <div class="social-media">
+<!-- <section class="home" id="home particles-js"> -->
+<section class="home" id="home">
+    <div class="home-content">
+        <div id="particles-js"></div>
+        <h3 class="quick">Salut, c'est</h3>
+        <h1 class="quick">Tsiaro Hifaliana</h1>
+        <h3 class="quick">Je suis <span class="multiple-text"></span> </h3>
+        <p>
+            Bienvenue sur mon portfolio! Je m'appelle RANDRIAMANALINA Tsiaro Hifaliana et je suis diplômé en informatique avec plus de 3 ans d'expérience dans le développement d'applications,
+            spécialisé dans l'utilisation du framework Javascript comme React, Express js, Nest js et React Native pour le développement mobile.
+            <br> <br>
+            Mon expertise dans ce domaine m'a permis d'accompagner de nombreux clients dans la dynamisation de leurs ventes et la croissance de leur entreprise grâce
+            à l'utilisation d'applications mobiles engageantes.Il est essentiel d'avoir une application de qualité pour atteindre votre public cible.
+            C'est pourquoi il est important de choisir un expert dans le domaine.
+            Si vous avez des questions ou souhaitez discuter d'un projet, n'hésitez pas à me contacter.
+        </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/tsiaro-hifaliana-randriamanalina-45200b230/"><i class='bx bxl-linkedin' ></i></a>
                 <a href="https://www.facebook.com/tsiaro.maitre"><i class='bx bxl-facebook'></i></a>
                 <a href="#"><i class='bx bxl-twitter'></i></a>
                 <a href="https://www.instagram.com/tsiarohifalina/"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://www.linkedin.com/in/tsiaro-hifaliana-randriamanalina-45200b230/"><i class='bx bxl-linkedin' ></i></a>
-             </div>
-             <button>Download CV</button>
             </div>
-            <div class="home-image">
-                <img src="image/tsiaro.png" alt="">    
-            </div>
-    </section>
+        <button>Download CV</button>
+    </div>
+    <div class="home-image">
+        <img src="images/service-2.png" alt="">    
+    </div>
+</section>
 
-    <!-- About section design -->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="image/7.jpg" alt="">
+<!-- About section design -->
+<section class="about" id="about">
+    <div class="about-content">
+        <!-- <div id="particles-js"></div> -->
+        <h2 class="heading">About<span>me</span></h2>
+        <h3>Developpeur FullStack JS</h3>
+        <p>              
+            En tant que développeur FullStack JS, je m'engage à garantir la fonctionnalité complète de votre application,
+            que ce soit du côté front-end ou du côté back-end. Avec une expertise dans l'utilisation de technologies telles que React JS pour le front-end et Express JS pour le back-end,
+            je suis en mesure de construire des applications web robustes et évolutives.
+        <br><br/>
+            De plus, lorsqu'il s'agit de développer des applications mobiles,
+            j'opte pour React Native en raison de sa rapidité et de son efficacité.
+            Cette approche me permet de créer des applications mobiles natives performantes qui offrent une expérience utilisateur fluide et réactive,
+            tout en tirant parti de mes compétences existantes en JavaScript.
+        <br><br/>
+            En combinant mes compétences en développement front-end, back-end et mobile,
+            je suis en mesure de fournir des solutions complètes et polyvalentes qui répondent à vos besoins spécifiques en matière de développement logiciel.
+        </p>
+        <!-- <a href="" class="btn"></a> -->
+        <button>Read more</button>
+    </div>
+    <!-- <div class="about-img">
+        <img src="image/tsiaro.png" alt="">
+    </div> -->
+
+                <!-- Education -->
+</section>
+
+                    <!-- Qualifications -->
+<section class="MyEducation" id="MyEducation">
+    
+    <h2 data-heading="My Journey" class="heading">Qualifications</h2>
+
+    <div class="about-content about-education">
+        <div class="education">
+            <p> Education </p>
+            <div class="timeline">
+            <div class="timeline-item">
+                <div class="circle-dot"></div>
+                <h3 class="timeline-title">Ecole Nationale d'informatique Madagascar ENI</h3>
+                <p class="timeline-text">Ingénieur en informatique</p>
+                <span class="timeline-date"
+                ><i class="uil uil-calendar-alt"></i>
+                2019-2024
+                </span>
+            </div>
+
+            <div class="timeline-item">
+                <div class="circle-dot"></div>
+                <h3 class="timeline-title">ENI</h3>
+                <p class="timeline-text">Licence en Informatique</p>
+                <span class="timeline-date"
+                ><i class="uil uil-calendar-alt"></i>
+                2020-2022
+                </span>
+            </div>
+
+            <div class="timeline-item">
+                <div class="circle-dot"></div>
+                <h3 class="timeline-title">Saint Jean de Matha</h3>
+                <p class="timeline-text">Bacc série S avec mention: Assez Bien</p>
+                <span class="timeline-date"
+                ><i class="uil uil-calendar-alt"></i>
+                2018-2019
+                </span>
+            </div>
+            </div>
         </div>
-        <div class="about-content">
-            <h2 class="heading">About<span>me</span></h2>
-            <h3>Developpeur Symfony</h3>
+        <div class="experience">
+            <p> Expérience </p>
+            <div class="timeline">
+            <div class="timeline-item">
+                <div class="circle-dot"></div>
+                <h3 class="timeline-title">ENI</h3>
+                <p class="timeline-text">Développeur Mobile</p>
+                <span class="timeline-date"
+                ><i class="uil uil-calendar-alt"></i>
+                2022-2023
+                </span>
+            </div>
+
+            <div class="timeline-item">
+                <div class="circle-dot"></div>
+                <h3 class="timeline-title">MahayTech</h3>
+                <p class="timeline-text">Développeur Frontend REACT</p>
+                <span class="timeline-date"
+                ><i class="uil uil-calendar-alt"></i>
+                2022-2023
+                </span>
+            </div>
+
+            <div class="timeline-item">
+                <div class="circle-dot"></div>
+                <h3 class="timeline-title">ENI</h3>
+                <p class="timeline-text">Développeur FullStack JS</p>
+                <span class="timeline-date"
+                ><i class="uil uil-calendar-alt"></i>
+                2020-2022
+                </span>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills">
+    <h2 data-heading="My Abilities" class="heading">Mes Compétences</h2>
+    <div class="skills-container container grid">
+        <div class="skills-tabs">
+        
+        <div class="skills-header " data-target="#frontend">
+            <i class="uil uil-swatchbook skills-icon"></i>
+            <div>
+                <h1 class="heading">Frontend Development</h1>
+                <span class="skills-subtitle">More than 3 Years</span>
+            </div>
+            <i class="uil uil-angle-down skills-arrow"></i>
+        </div>
+
+        <div class="skills-header " data-target="#blockchain">
+          <i class="uil uil-bitcoin-circle skills-icon"></i>
+          <div>
+              <h1 class="skills-title">Mobile Development</h1>
+              <span class="skills-subtitle">More than 1 year</span>
+          </div>
+          <i class="uil uil-angle-down skills-arrow"></i>
+        </div>
+
+        <div class="skills-header " data-target="#backened">
+            <i class="uil uil-desktop-alt skills-icon"></i>
+            <div>
+                <h1 class="skills-title">Backend Development</h1>
+                <span class="skills-subtitle">More than 2 Years</span>
+            </div>
+
+            <i class="uil uil-angle-down skills-arrow"></i>
+        </div>
+        
+        
+      </div>
+
+      <div
+        class="skills-group skills skills-active "
+        data-content
+        id="frontend"
+      >
+        <div class="skills-list grid">
+            <div class="skills-data">
+                <div class="skills-titles">
+                    <h3 class="skills-name">
+                        <img
+                        src="images/javascript.png"
+                        alt="javascript logo"
+                        width="40px"
+                        class="skill-logo"
+                        />
+                        Javascript
+                    </h3>
+                    <span class="skills-number">80%</span>
+                </div>
+
+                <div class="skills-bar">
+                    <span class="skills-percentage" style="width:80%;"></span>
+                </div>
+            </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name" id="skills-name">
+                <img
+                  src="images/reactjs.png"
+                  alt="react js logo"
+                  width="40px"
+                  class="skill-logo"
+                />
+                React JS
+              </h3>
+              <span class="skills-number">85%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:85%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img src="images/Next.js.png" alt="Nextjs logo" width="40px" /> Next JS
+              </h3>
+              <span class="skills-number">75%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:75%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img
+                  src="images/typescript.png"
+                  alt="Typescript logo"
+                  width="35px"
+                  class="skill-logo"
+                />
+                Typescript
+              </h3>
+              <span class="skills-number">80%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:80%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img src="images/Bootstrap.png" alt="Boostrap logo" width="35px" />
+                Boostrap
+              </h3>
+              <span class="skills-number">90%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:90%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img
+                  src="images/tailwind.png"
+                  alt=" Tailwind logo"
+                  width="35px"
+                  class="skill-logo"
+                />
+                Tailwind CSS
+              </h3>
+              <span class="skills-number">90%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:90%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img src="images/sass.png" alt=" SASS/SCSS logo" width="35px" /> SASS/SCSS
+              </h3>
+              <span class="skills-number">80%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:80%;"></span>
+            </div>
+          </div>
+
+          
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img
+                  src="images/redux.png"
+                  alt="redux logo"
+                  width="35px"
+                  class="skill-logo"
+                />
+                Redux
+              </h3>
+              <span class="skills-number">70%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:70%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img src="images/api.png" alt="API logo" width="35px" /> APIs
+              </h3>
+              <span class="skills-number">80%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:80%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img
+                  src="images/git.png"
+                  alt="Git Github version control Logo"
+                  width="35px"
+                  class="skill-logo"
+                />
+                Git and Version control
+              </h3>
+              <span class="skills-number">85%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:85%;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img
+                  src="images/nodejs.png"
+                  alt="nodejs logo"
+                  width="35px"
+                  class="skill-logo"
+                />
+                Node JS
+              </h3>
+              <span class="skills-number">80%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:80%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img src="images/express.png" alt="Expressjs logo" width="35px" /> Express
+                JS
+              </h3>
+              <span class="skills-number">75%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:75%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img
+                  src="images/mongodb.png"
+                  alt="mongoDB logo"
+                  width="35px"
+                  class="skill-logo"
+                />
+                Mongo DB
+              </h3>
+              <span class="skills-number">70%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:70%;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-group skills" data-content id="blockchain">
+        <div class="skills-list grid">
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img src="images/solidity 2.png" alt="solidity logo" width="35px" />
+                Solidity
+              </h3>
+              <span class="skills-number">80%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:80%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img
+                  src="images/smart contracts logo.png"
+                  alt=" smart contracts logo"
+                  width="35px"
+                />
+                Smart contracts
+              </h3>
+              <span class="skills-number">85%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:85%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img src="images/web3 js.png" alt="web3 js logo" width="35px" /> Web3 JS
+              </h3>
+              <span class="skills-number">70%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:70%;"></span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-titles">
+              <h3 class="skills-name">
+                <img src="images/ether js.png" alt="Etherjs logo" width="35px" /> Ether
+                JS
+              </h3>
+              <span class="skills-number">70%</span>
+            </div>
+
+            <div class="skills-bar">
+              <span class="skills-percentage" style="width:70%;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Service -->
+<section class="service" id="service">
+    <h2 class="heading">Mes <span>Services</span></h2>
+    <div class="container">
+        <div class="service-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Developpeur REACT</h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit
-                . Voluptatum culpa quisquam dolorem ut quibusdam minima ip
-                sum necessitatibus accusantium dignissimos? Possimus eos a
-                speriores eius molestiae modi iste reprehenderit ad velit facere 
-                ipsa, sequi iure odit iusto animi adipisci sint commodi numquam.
+                Je crée des interfaces utilisateur dynamiques et réactives de manière efficace avec REACT.
+                Grâce à sa structure de composants réutilisables et à sa gestion efficace de l'état de l'application, 
+                En outre, sa popularité et sa vaste communauté de développeurs fournissent un écosystème riche en outils, bibliothèques et ressources,
+                facilitant ainsi le développement et l'évolution des projets React.
+                <br>
             </p>
-            <!-- <a href="" class="btn"></a> -->
             <button>Read more</button>
         </div>
-    </section>
+        <div class="service-box">
+            <i class='bx bxs-paint'></i>
 
-    <!-- Service -->
-    <section class="service" id="service">
-        <h2 class="heading">Ours <span>Services</span></h2>
-        <div class="container">
-            <div class="service-box">
-                <i class='bx bx-code-alt'></i>
+            <h3>Developpeur Symfony</h3>
+            <p>
+                Symfony réside dans sa structure robuste et sa maturité en tant que framework PHP.
+                Avec une architecture bien définie suivant le modèle MVC, Symfony offre aux développeurs un cadre fiable et évolutif. 
+                Sa documentation exhaustive et sa communauté active complètent cet avantage, 
+                en offrant un support précieux pour le développement et la maintenance des projets Symfony.
+            </p>
+            <button>Read more</button>
+        </div>
+        <div class="service-box">
+            <i class='bx bx-bar-chart-alt'></i>
+            <h3>Dev React Native</h3>
+            <p>
+                React Native se distingue par sa capacité à développer des applications mobiles natives pour iOS et Android. 
+                Cette approche permet un développement rapide et efficace.
+                De plus, la réutilisabilité du code entre les applications web et mobiles, combinée à une communauté active de développeurs,
+                fait de React Native un choix attractif pour créer des applications mobiles modernes et évolutives.
+            </p>
+            <button>Read more</button>
+        </div>
+    </div>
+</section>
 
-                <h3>Developpeur</h3>
+<section class="portfolio" id="portfolio">
+  <h1 class="heading">Projet <span>réalisé</span></h1>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="images/mobile2.jpg" alt="" >
+            <div class="portfoloio-layer">
+                <h4>Application mobile Gestion Etudiant</h4>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Autem veritatis dignissimos soluta 
-                    incidunt distinctio excepturi labore ex eius magni maxime?
+                  Application fait avec React Native pour gérer les étudiant avec leur bourse
                 </p>
-                <button>Read more</button>
-            </div>
-            <div class="service-box">
-                <i class='bx bxs-paint'></i>
-
-                <h3>Developpeur</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Autem veritatis dignissimos soluta 
-                    incidunt distinctio excepturi labore ex eius magni maxime?
-                </p>
-                <button>Read more</button>
-            </div>
-            <div class="service-box">
-                <i class='bx bx-bar-chart-alt'></i>
-                <h3>Developpeur</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Autem veritatis dignissimos soluta 
-                    incidunt distinctio excepturi labore ex eius magni maxime?
-                </p>
-                <button>Read more</button>
+                <button>Détails</button>
             </div>
         </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <h2 class="heading">Lasted <span>project</span></h2>
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="image/1.jpg" alt="">
-                <div class="portfoloio-layer">
-                    <h4>Salut</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Earum architecto error reiciendis ullam iure
-                    quis cupiditate itaque? Sit, repellat eos?
-                    </p>
-                    <button>valider</button>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="image/2.jpg" alt="" >
-                <div class="portfoloio-layer">
-                    <h4>Salut</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Earum architecto error reiciendis ullam iure
-                    quis cupiditate itaque? Sit, repellat eos?
-                    </p>
-                    <button>valider</button>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="image/3.jpg" alt="">
-                <div class="portfoloio-layer">
-                    <h4>Salut</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Earum architecto error reiciendis ullam iure
-                    quis cupiditate itaque? Sit, repellat eos?
-                    </p>
-                    <button>valider</button>
-                </div>
-            </div>
-        
-            <div class="portfolio-box">
-                <img src="image/4.jpg" alt="">
-                <div class="portfoloio-layer">
-                    <h4>Salut</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Earum architecto error reiciendis ullam iure
-                    quis cupiditate itaque? Sit, repellat eos?
-                    </p>
-                    <button>valider</button>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="image/5.jpg" alt="">
-                <div class="portfoloio-layer">
-                    <h4>Salut</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Earum architecto error reiciendis ullam iure
-                    quis cupiditate itaque? Sit, repellat eos?
-                    </p>
-                    <button>valider</button>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="image/6.jpg" alt="">
-                <div class="portfoloio-layer">
-                    <h4>Salut</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Earum architecto error reiciendis ullam iure
-                    quis cupiditate itaque? Sit, repellat eos?
-                    </p>
-                    <button>valider</button>
-                </div>
-            </div>
-            
+        <div class="portfolio-box">
+          <img src="images/gestSalle.PNG" alt="">
+          <div class="portfoloio-layer"> 
+            <h4>Application de Géstion Matériel Informatique</h4>
+            <p>Application fait avec JAVA en utilisant Hibernete et Frame 
+            </p>
+            <button>Détails</button>
+          </div>
         </div>
-    </section>
+        <div class="portfolio-box"> 
+            <img src="images/games.PNG" alt="">
+            <div class="portfoloio-layer">
+                <h4>Application Info-Jeu</h4>
+                <p>Fait avec React et Typescript cette application permet
+                   de visualiser les nouveaux jeu avec plusieur filtre inclue
+                </p>
+                <button>Détails</button>
+            </div>
+        </div> 
+    </div>
+</section>
 
     
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me !</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Nom">
-                <input type="email" placeholder="E-mail">
-            </div>
-            <div class="input-box">
-                <input type="text" placeholder="Numéro téléphone">
-                <input type="email" placeholder="E-mail sujet">
-            </div>
-            <div class="input-box" id="area">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Déscription"></textarea>
-            </div>
-            <button>Envoyer</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-
-    <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2023 by Tsiaro Hifaliana Développeur Symfony</p>
+<!-- Contact -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me !</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Nom">
+            <input type="email" placeholder="E-mail">
         </div>
-        <div class="footer-icon">
-
+        <div class="input-box">
+            <input type="text" placeholder="Numéro téléphone">
+            <input type="email" placeholder="E-mail sujet">
         </div>
-    </footer>
-        
+        <div class="input-box" id="area">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Déscription"></textarea>
+        </div>
+        <button>Envoyer</button>
+    </form>
+</section>
+
+<!-- Footer -->
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by Tsiaro Hifaliana Développeur FullStack JS</p>
+    </div>
+    <div class="footer-icon"></div>
+</footer>
+
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="demo/js/app.js"></script>
 
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
 <script src="js/javascript.js"></script> 
+
 
 </body>
 </html>

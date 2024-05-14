@@ -56,7 +56,7 @@ window.onscroll = () => {
 
 //  typed JS
 const typed = new Typed('.multiple-text', {
-    strings: ['Développeur Symfony', 'Développeur REACT', 'Développeur ExpressJS'],
+    strings: ['Développeur REACT', 'Développeur ExpressJS', 'Développeur Symfony', 'Développeur React Native'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
